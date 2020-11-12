@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white_project"
+    android:paddingHorizontal="15dp"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/tv_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/_17_july_2020"
+        android:textAllCaps="true"
+        android:textColor="@color/grey_project"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/welcome_jordan"
+        android:layout_below="@+id/tv_first"
+        android:textColor="@color/black_project"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_main"
+        android:layout_marginTop="20dp"
+        tools:itemCount="4"
+        tools:listitem="@layout/item_home_list"
+        android:layout_below="@+id/tv_second"/>
+
+
+</RelativeLayout>

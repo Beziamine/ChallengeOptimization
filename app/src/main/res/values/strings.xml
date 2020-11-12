@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ThinkITChallenge</string>
+    <string name="smarty">Smarty</string>
+    <string name="welcome_home">Welcome Home</string>
+    <string name="your_name">Your Name</string>
+    <string name="continues">CONTINUE</string>
+    <string name="welcome_jordan">Welcome, Jordan!</string>
+    <string name="_17_july_2020">JULY 17, 2020</string>
+    <string name="empty_editext">Your name is empty !</string>
+    <string name="welcome">Welcome,</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_project">
+
+
+    <RelativeLayout
+        android:id="@+id/relative_first"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="10dp">
+
+        <ImageView
+            android:id="@+id/iv_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/home" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relative_second"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingVertical="20dp">
+
+
+        <RelativeLayout
+            android:id="@+id/rv_third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+
+            <TextView
+                android:id="@+id/tv_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/smarty"
+                android:textColor="@color/black_project"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_first"
+                android:layout_centerHorizontal="true"
+                android:text="@string/welcome_home"
+                android:textColor="@color/grey_project"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+
+            <EditText
+                android:id="@+id/et_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_second"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/home_edittext_background"
+                android:hint="@string/your_name"
+                android:textAlignment="center"
+                android:textCursorDrawable="@drawable/cursor_color_blue"
+                android:paddingHorizontal="40dp"
+                android:paddingVertical="10dp"
+                android:textColor="@color/grey_project"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/bt_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_first"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_home_background"
+                android:paddingHorizontal="30dp"
+                android:paddingVertical="15dp"
+                android:text="@string/continues"
+                android:textAllCaps="true"
+                android:textColor="@color/white_project"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
